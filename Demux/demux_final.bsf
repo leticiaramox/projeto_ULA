@@ -1,0 +1,72 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 152 144)
+	(text "demux_final" (rect 5 0 78 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "S[1..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "S[1..0]" (rect 21 27 59 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "A[5..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "A[5..0]" (rect 21 43 59 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Y0[5..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "Y0[5..0]" (rect 68 27 115 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 32)(pt 120 32)(line_width 3))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Y1[5..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "Y1[5..0]" (rect 68 43 115 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 48)(pt 120 48)(line_width 3))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Y2[5..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "Y2[5..0]" (rect 68 59 115 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 64)(pt 120 64)(line_width 3))
+	)
+	(port
+		(pt 136 80)
+		(output)
+		(text "Y3[5..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "Y3[5..0]" (rect 68 75 115 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 80)(pt 120 80)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 112))
+	)
+)
